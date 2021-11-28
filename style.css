@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+.header {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1F2937;
+    color: white;
+}
+.header-logo {
+    font-size: 24px;
+    margin-top: 8px;
+}
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 32px;
+    margin-top: 10px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
