@@ -1,1 +1,2 @@
 # odin-landing-page
+This is my second project on TOP and it will be about making a landing  page. I will be using a provided design, and I need to work on my own project to have it look similar to the design. 
