@@ -52,6 +52,7 @@ button {
     align-self: flex-start;
     font-size: 14px;
     font-weight: 900;
+    background-color: firebrick;
 }
 .eldenring {
     width: 300px;
@@ -62,7 +63,7 @@ button {
     justify-content: center;
     align-items: center;
     margin: 0;
-    background-color: aquamarine;
+    background-color: rgb(117, 21, 21);
 }
 .middle-title {
     text-align: center;
@@ -110,7 +111,7 @@ li {
     font-weight: 700;
 }
 .footer {
-    background-color: rgb(236, 181, 181);
+    background-color: rgb(161, 64, 64);
     display: flex;
     height: 200px;
     justify-content: center;
