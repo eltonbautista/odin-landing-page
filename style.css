@@ -4,12 +4,14 @@ body {
     justify-content: space-between;
     min-height: 100vh;
     margin: 0;
+    flex-shrink: 1;
 }
 .header {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     background-color: #1F2937;
     color: white;
+    gap: 325px;
 }
 .header-logo {
     font-size: 24px;
