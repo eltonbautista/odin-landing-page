@@ -8,10 +8,10 @@ body {
 }
 .header {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     background-color: #1F2937;
     color: white;
-    gap: 325px;
+
 }
 .header-logo {
     font-size: 24px;
@@ -28,6 +28,7 @@ a {
     text-decoration: none;
     color: white;
 }
+
 
 .top {
     display: flex;
@@ -58,6 +59,7 @@ button {
 }
 .eldenring {
     width: 300px;
+    margin-bottom: 50px;
 }
 .middle {
     display: flex;
@@ -77,16 +79,29 @@ button {
     display:flex;
     justify-content: center;
     align-items: center;
+    padding: 30px;
 }
+
 .ring-pictures img {
-    max-height: 100px;
     display: flex;
-    max-width: 100px;
+    width: 100%;
+    height: 100%;
+    border-radius: 17px;
 }
-li {
+.ring-pictures li {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 0;
+    border: 8px solid rgb(54, 50, 50);
+    border-radius: 25px;
+    width: 150px;
+    height: 150px;
+    
+}
+ul p {
+    margin: 0;
+    text-align: center;
 }
 .bottom {
     background-color: rgb(87, 28, 87);
